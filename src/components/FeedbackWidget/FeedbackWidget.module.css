@@ -1,0 +1,53 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(157, 215, 247);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(66, 37, 37, 0.5);
+}
+.text {
+  font-size: 16px;
+  font-weight: bold;
+}
+.button {
+  margin: 4px;
+  padding: 6px 16px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(62, 146, 241);
+  cursor: pointer;
+}
+.title {
+  color: darkblue;
+}
+.FeedbackTitle {
+  margin: 6px;
+  padding: 16px;
+  width: 300px;
+  background-color: rgb(233, 227, 227);
+}
+.message {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.notification {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 6px 16px;
+  background-color: tomato;
+}
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 10px;
+}
